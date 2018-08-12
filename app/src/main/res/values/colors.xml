@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="layout_bg">#f0f0f0</color>
+    <color name="touming_white">#00ffffff</color>
+    <color name="touming_black">#00000000</color>
+
+    <!--android中常用的是6位的颜色值，比如#ffffff，但是有时候项目需要用到具有透明度的颜色值(用过百度地图定位的同学肯定知道，那个中心圈)，-->
+    <!--美工给的UI图标注的一般都是正常6位颜色值+颜色透明度百分比，这时候我们就需要将透明度百分比转换成8位颜色值中的前两位-->
+    <!--#透明度：颜色值 &#45;&#45;&#45;&#45; #00 ffffff-->
+    <!--透明度百分比 : 8位颜色值前两位-->
+    <!--100% : FF-->
+    <!--95% : F2-->
+    <!--90% : E6-->
+    <!--85% : D9-->
+    <!--80% : CC-->
+    <!--75% : BF-->
+    <!--70% : B3-->
+    <!--65% : A6-->
+    <!--60% : 99-->
+    <!--55% : 8C-->
+    <!--50% : 80-->
+    <!--45% : 73-->
+    <!--40% : 66-->
+    <!--35% : 59-->
+    <!--30% : 4D-->
+    <!--25% : 40-->
+    <!--20% : 33-->
+    <!--15% : 26-->
+    <!--10% : 1A-->
+    <!--5% : 0D-->
+    <!--0% : 00-->
+</resources>
